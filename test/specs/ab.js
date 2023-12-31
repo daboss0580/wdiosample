@@ -4,6 +4,6 @@ describe('Test', () => {
         await browser.url('https://the-internet.herokuapp.com/');
         const element =await $('//*[text()="A/B Testing"]')
         await element.click()
-        await browser.pause(3000)
+        await browser.pause(2000)
     });
 });
